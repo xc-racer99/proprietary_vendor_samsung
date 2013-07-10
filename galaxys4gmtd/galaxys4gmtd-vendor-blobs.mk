@@ -23,9 +23,9 @@ PRODUCT_COPY_FILES := \
 #All the blobs necessary for galaxys4gmtd devices
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/samsung/galaxys4gmtd/proprietary/etc/secgps.conf:system/etc/vendor/samsung-agps/secgps.conf \
     vendor/samsung/galaxys4gmtd/proprietary/vendor/etc/gps.xml:system/vendor/etc/gps.xml \
     vendor/samsung/galaxys4gmtd/proprietary/vendor/bin/gpsd:system/vendor/bin/gpsd \
+    vendor/samsung/galaxys4gmtd/proprietary/bin/agpsd:system/bin/agpsd \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libclientgps.so:system/lib/libclientgps.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
