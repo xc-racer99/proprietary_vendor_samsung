@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/galaxys4gmtd/proprietary/gps.xml:system/vendor/etc/gps.xml \
     vendor/samsung/galaxys4gmtd/proprietary/libclientgps.so:system/vendor/lib/libclientgps.so \
-    vendor/samsung/galaxys4gmtd/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.aries.so \
+    vendor/samsung/galaxys4gmtd/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
