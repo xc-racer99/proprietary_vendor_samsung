@@ -30,14 +30,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/ste-cg29xx_ctrl:system/vendor/bin/ste-cg29xx_ctrl \
     vendor/samsung/galaxys4gmtd/proprietary/agpsd:system/vendor/bin/agpsd \
     vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/galaxys4gmtd/proprietary/gps.xml:system/vendor/etc/gps.xml \
     vendor/samsung/galaxys4gmtd/proprietary/libclientgps.so:system/vendor/lib/libclientgps.so \
     vendor/samsung/galaxys4gmtd/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/galaxys4gmtd/proprietary/bin/BCM4329B1_002.002.023.0746.0832.hcd:system/bin/BCM4329B1_002.002.023.0746.0832.hcd \
-    vendor/samsung/galaxys4gmtd/proprietary/bin/brcm_patchram_plus:/system/bin/brcm_patchram_plus \
     vendor/samsung/galaxys4gmtd/proprietary/bin/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/galaxys4gmtd/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/galaxys4gmtd/proprietary/usr/keychars/melfas_touchkey.kcm.bin:system/usr/keychars/melfas_touchkey.kcm.bin \
