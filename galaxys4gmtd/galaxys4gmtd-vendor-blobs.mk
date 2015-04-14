@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/lib/librilswitch.so:system/lib/librilswitch.so \
     vendor/samsung/galaxys4gmtd/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/galaxys4gmtd/proprietary/gps.conf:system/etc/gps.conf \
-    vendor/samsung/galaxys4gmtd/proprietary/ste-cg29xx_ctrl:system/vendor/bin/ste-cg29xx_ctrl \
+    vendor/samsung/galaxys4gmtd/proprietary/ste-cg29xx_ctrl:system/bin/ste-cg29xx_ctrl \
     vendor/samsung/galaxys4gmtd/proprietary/agpsd:system/vendor/bin/agpsd \
     vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/galaxys4gmtd/proprietary/libclientgps.so:system/vendor/lib/libclientgps.so \
