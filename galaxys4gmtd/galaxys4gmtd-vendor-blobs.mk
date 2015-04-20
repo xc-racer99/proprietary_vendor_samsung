@@ -20,22 +20,20 @@ PRODUCT_COPY_FILES := \
 
 # All the blobs necessary for galaxys devices
 PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys4gmtd/proprietary/lib/libclientgps.so:system/lib/libclientgps.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libganril.so:system/lib/libganril.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/librilswitch.so:system/lib/librilswitch.so \
+    vendor/samsung/galaxys4gmtd/proprietary/vendor/lib/hw/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so \
     vendor/samsung/galaxys4gmtd/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/galaxys4gmtd/proprietary/gps.conf:system/etc/gps.conf \
-    vendor/samsung/galaxys4gmtd/proprietary/ste-cg29xx_ctrl:system/bin/ste-cg29xx_ctrl \
-    vendor/samsung/galaxys4gmtd/proprietary/agpsd:system/bin/agpsd \
-    vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/galaxys4gmtd/proprietary/libclientgps.so:system/vendor/lib/libclientgps.so \
-    vendor/samsung/galaxys4gmtd/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so \
+    vendor/samsung/galaxys4gmtd/proprietary/vendor/bin/samsung-gpsd:system/vendor/bin/samsung-gpsd \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/galaxys4gmtd/proprietary/bin/BCM4329B1_002.002.023.0746.0832.hcd:system/bin/BCM4329B1_002.002.023.0746.0832.hcd \
+    vendor/samsung/galaxys4gmtd/proprietary/bin/brcm_patchram_plus:/system/bin/brcm_patchram_plus \
     vendor/samsung/galaxys4gmtd/proprietary/bin/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/galaxys4gmtd/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/galaxys4gmtd/proprietary/usr/keychars/melfas_touchkey.kcm.bin:system/usr/keychars/melfas_touchkey.kcm.bin \
