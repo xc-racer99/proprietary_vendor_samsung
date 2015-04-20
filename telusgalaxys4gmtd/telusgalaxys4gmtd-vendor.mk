@@ -24,4 +24,4 @@ PRODUCT_PACKAGES := \
 PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
-$(call inherit-product, vendor/samsung/galaxys4gmtd/galaxys4gmtd-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/telusgalaxys4gmtd/telusgalaxys4gmtd-vendor-blobs.mk)
