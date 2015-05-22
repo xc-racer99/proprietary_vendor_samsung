@@ -34,5 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/telusgalaxys4gmtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
     vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/lib/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
     vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/bin/orientationd:system/vendor/bin/orientationd \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/bin/geomagneticd:system/vendor/bin/geomagneticd
+    vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/bin/geomagneticd:system/vendor/bin/geomagneticd \
+    vendor/samsung/telusgalaxys4gmtd/proprietary/libfmradio.cg2900.so:system/lib/libfmradio.cg2900.so
 
