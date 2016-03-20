@@ -16,4 +16,3 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/aries-common/overlay
 
 $(call inherit-product, vendor/samsung/telusgalaxys4gmtd/telusgalaxys4gmtd-vendor-blobs.mk)
-$(call inherit-product, vendor/samsung/aries-common/aries-vendor-blobs.mk)

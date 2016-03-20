@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+#	  http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -26,11 +26,27 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/bin/gpsd:system/vendor/bin/gpsd \
 	vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/lib/libclientgps.so:system/vendor/lib/libclientgps.so \
 	vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/lib/hw/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
-    	vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libril.so:system/lib/libril.so \
-    	vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    	vendor/samsung/telusgalaxys4gmtd/proprietary/bin/rild:system/bin/rild \
-    	vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    	vendor/samsung/telusgalaxys4gmtd/proprietary/modem.bin:modem.bin \
-    	vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
-    	vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
-    	vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd
+	vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libril.so:system/lib/libril.so \
+	vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+	vendor/samsung/telusgalaxys4gmtd/proprietary/bin/rild:system/bin/rild \
+	vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+	vendor/samsung/telusgalaxys4gmtd/proprietary/modem.bin:modem.bin \
+	vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
+	vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
+	vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
+	vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
+	vendor/samsung/aries-common/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
+	vendor/samsung/aries-common/proprietary/cypress-touchkey.bin:system/vendor/firmware/cypress-touchkey.bin \
+	vendor/samsung/aries-common/proprietary/samsung_mfc_fw.bin:system/vendor/firmware/samsung_mfc_fw.bin \
+	vendor/samsung/aries-common/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
+	vendor/samsung/aries-common/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
+	vendor/samsung/aries-common/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
+	vendor/samsung/aries-common/proprietary/gralloc.aries.so:system/vendor/lib/hw/gralloc.aries.so \
+	vendor/samsung/aries-common/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+	vendor/samsung/aries-common/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+	vendor/samsung/aries-common/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+	vendor/samsung/aries-common/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+	vendor/samsung/aries-common/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
+	vendor/samsung/aries-common/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+	vendor/samsung/aries-common/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+	vendor/samsung/aries-common/proprietary/libusc.so:system/vendor/lib/libusc.so
