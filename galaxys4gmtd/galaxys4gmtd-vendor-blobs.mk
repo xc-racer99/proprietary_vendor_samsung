@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PROCDUCT_COPY_FILES += \
-	vendor/samsung/galaxys4gmtd/proprietary/libril.so:obj/lib/libril.so \
 	vendor/samsung/galaxys4gmtd/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
 
 
@@ -25,12 +24,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxys4gmtd/proprietary/gps.xml:system/etc/gps.xml \
 	vendor/samsung/galaxys4gmtd/proprietary/gps.xml:system/vendor/etc/gps.xml \
 	vendor/samsung/galaxys4gmtd/proprietary/libclientgps.so:system/lib/libclientgps.so \
-	vendor/samsung/galaxys4gmtd/proprietary/libril.so:system/lib/libril.so \
 	vendor/samsung/galaxys4gmtd/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
 	vendor/samsung/galaxys4gmtd/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/galaxys4gmtd/proprietary/modem.bin:modem.bin \
 	vendor/samsung/galaxys4gmtd/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
-	vendor/samsung/galaxys4gmtd/proprietary/rild:system/bin/rild \
 	vendor/samsung/galaxys4gmtd/proprietary/samsung-gpsd:system/vendor/bin/samsung-gpsd \
 	vendor/samsung/galaxys4gmtd/proprietary/secgps.conf:system/etc/vendor/samsung-agps/secgps.conf \
 	vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/agpsd:/system/vendor/bin/agpsd \

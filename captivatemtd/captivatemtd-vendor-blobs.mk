@@ -14,7 +14,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PROCDUCT_COPY_FILES += \
-	vendor/samsung/captivatemtd/proprietary/lib/libril.so:obj/lib/libril.so \
 	vendor/samsung/captivatemtd/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 
@@ -25,12 +24,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/captivatemtd/proprietary/gps.xml:system/vendor/etc/gps.xml \
 	vendor/samsung/captivatemtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
 	vendor/samsung/captivatemtd/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
-	vendor/samsung/captivatemtd/proprietary/libril.so:system/lib/libril.so \
 	vendor/samsung/captivatemtd/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/captivatemtd/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
-	vendor/samsung/captivatemtd/proprietary/rild:system/bin/rild \
 	vendor/samsung/captivatemtd/proprietary/modem.bin:modem.bin \
 	vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
 	vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
-	vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
+	vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd
 
