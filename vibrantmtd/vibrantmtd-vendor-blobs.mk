@@ -12,19 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES := \
-    vendor/samsung/vibrantmtd/proprietary/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/vibrantmtd/proprietary/modem.bin:modem.bin
-
-
 # All the blobs necessary for vibrantmtd devices
 PRODUCT_COPY_FILES += \
     vendor/samsung/vibrantmtd/proprietary/gps.conf:system/etc/gps.conf \
     vendor/samsung/vibrantmtd/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/vibrantmtd/proprietary/libclientgps.so:system/lib/libclientgps.so \
     vendor/samsung/vibrantmtd/proprietary/libsamsung_hwlegacy.so:system/vendor/lib/libsamsung_hwlegacy.so \
-    vendor/samsung/vibrantmtd/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/vibrantmtd/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
     vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \

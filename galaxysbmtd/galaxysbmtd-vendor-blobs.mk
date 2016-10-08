@@ -12,20 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysbmtd/proprietary/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/galaxysbmtd/proprietary/modem.bin:modem.bin
-
-
 # All the blobs necessary for galaxys devices
 PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysbmtd/proprietary/modem.bin:modem.bin \
     vendor/samsung/galaxysbmtd/proprietary/gps.conf:system/etc/gps.conf \
     vendor/samsung/galaxysbmtd/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/galaxysbmtd/proprietary/gps.xml:system/vendor/etc/gps.xml \
     vendor/samsung/galaxysbmtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
     vendor/samsung/galaxysbmtd/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
-    vendor/samsung/galaxysbmtd/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/galaxysbmtd/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
     vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
