@@ -13,7 +13,10 @@
 # limitations under the License.
 
 # All the other proprietary blobs necessary for a working SGS4G
+
 PRODUCT_COPY_FILES += \
+    vendor/samsung/aries-common/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
+    vendor/samsung/aries-common/proprietary/samsung_mfc_fw.bin:system/vendor/firmware/samsung_mfc_fw.bin \
 	vendor/samsung/galaxys4gmtd/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
 	vendor/samsung/galaxys4gmtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
 	vendor/samsung/galaxys4gmtd/proprietary/gps.conf:system/etc/gps.conf \
@@ -31,20 +34,18 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/modem.bin.telusgalaxys4gmtd:modem.bin.telusgalaxys4gmtd \
 	vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/nvram_net.txt.telusgalaxys4gmtd:system/vendor/firmware/nvram_net.txt.telusgalaxys4gmtd \
 	vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/ste-cg29xx_ctrl:system/vendor/bin/ste-cg29xx_ctrl \
-	vendor/samsung/aries-common/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
-	vendor/samsung/aries-common/proprietary/cypress-touchkey.bin:system/vendor/firmware/cypress-touchkey.bin \
 	vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
-	vendor/samsung/aries-common/proprietary/gralloc.aries.so:system/vendor/lib/hw/gralloc.aries.so \
-	vendor/samsung/aries-common/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-	vendor/samsung/aries-common/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-	vendor/samsung/aries-common/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
-	vendor/samsung/aries-common/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-	vendor/samsung/aries-common/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
-	vendor/samsung/aries-common/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
-	vendor/samsung/aries-common/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-	vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
-	vendor/samsung/aries-common/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
-	vendor/samsung/aries-common/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-	vendor/samsung/aries-common/proprietary/libusc.so:system/vendor/lib/libusc.so \
-	vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
-	vendor/samsung/aries-common/proprietary/samsung_mfc_fw.bin:system/vendor/firmware/samsung_mfc_fw.bin
+	vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd
+
+PRODUCT_PACKAGES += \
+    libGLESv1_CM_POWERVR_SGX540_120 \
+    libGLESv2_POWERVR_SGX540_120 \
+    gralloc.aries \
+    libglslcompiler \
+    libIMGegl \
+    libpvr2d \
+    libpvrANDROID_WSEGL \
+    libPVRScopeServices \
+    libsrv_init \
+    libsrv_um \
+    libusc
