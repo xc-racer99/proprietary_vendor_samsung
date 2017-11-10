@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/gps.aries.so.telusgalaxys4gmtd:system/vendor/lib/hw/gps.aries.so.telusgalaxys4gmtd \
 	vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/libclientgps.so.telusgalaxys4gmtd:system/lib/libclientgps.so.telusgalaxys4gmtd \
 	vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/modem.bin.telusgalaxys4gmtd:modem.bin.telusgalaxys4gmtd \
-	vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/nvram_net.txt.telusgalaxys4gmtd:system/vendor/firmware/nvram_net.txt.telusgalaxys4gmtd \
 	vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/ste-cg29xx_ctrl:system/vendor/bin/ste-cg29xx_ctrl \
 	vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
 	vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd
