@@ -14,26 +14,24 @@
 
 # All the other proprietary blobs necessary for a working SGS4G
 
-PRODUCT_COPY_FILES += \
-    vendor/samsung/aries-common/proprietary/bcm4329.hcd:vendor/firmware/bcm4329.hcd \
-    vendor/samsung/aries-common/proprietary/samsung_mfc_fw.bin:vendor/firmware/samsung_mfc_fw.bin \
-    vendor/samsung/galaxys4gmtd/proprietary/Certification.cer:vendor/bin/Certification.cer \
-    vendor/samsung/galaxys4gmtd/proprietary/gps.aries.so:vendor/lib/hw/gps.aries.so \
-    vendor/samsung/galaxys4gmtd/proprietary/gps.xml:vendor/etc/gps.xml \
-    vendor/samsung/galaxys4gmtd/proprietary/libclientgps.so:vendor/lib/libclientgps.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libsec-ril.so:vendor/lib/libsec-ril.so \
-    vendor/samsung/galaxys4gmtd/proprietary/modem.bin:vendor/modem.bin \
-    vendor/samsung/galaxys4gmtd/proprietary/nvram_net.txt:vendor/firmware/nvram_net.txt \
-    vendor/samsung/galaxys4gmtd/proprietary/samsung-gpsd:vendor/bin/samsung-gpsd \
-    vendor/samsung/galaxys4gmtd/proprietary/secgps.conf:vendor/etc/samsung-agps/secgps.conf \
-    vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/agpsd:vendor/bin/agpsd \
-    vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/gps.aries.so.telusgalaxys4gmtd:vendor/lib/hw/gps.aries.so.telusgalaxys4gmtd \
-    vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/libclientgps.so.telusgalaxys4gmtd:vendor/lib/libclientgps.so.telusgalaxys4gmtd \
-    vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/modem.bin.telusgalaxys4gmtd:vendor/modem.bin.telus \
-    vendor/samsung/galaxys4gmtd/proprietary/telusgalaxys4gmtd/ste-cg29xx_ctrl:vendor/bin/ste-cg29xx_ctrl \
-    vendor/samsung/aries-common/proprietary/geomagneticd:vendor/bin/geomagneticd \
-    vendor/samsung/aries-common/proprietary/orientationd:vendor/bin/orientationd
+# SGS4G
+PRODUCT_PACKAGES += \
+    libclientgps \
+    gps.aries \
+    libsec-ril \
+    gps.aries.telus \
+    libclientgps.telus \
+    Certification \
+    gps \
+    modem \
+    modem.telus \
+    nvram_net.galaxys4g \
+    secgps \
+    samsung-gpsd \
+    agpsd \
+    ste-cg29xx_ctrl
 
+# Aries-common
 PRODUCT_PACKAGES += \
     libGLESv1_CM_POWERVR_SGX540_120 \
     libGLESv2_POWERVR_SGX540_120 \
@@ -45,4 +43,7 @@ PRODUCT_PACKAGES += \
     libPVRScopeServices \
     libsrv_init \
     libsrv_um \
-    libusc
+    libusc \
+    bcm4329 \
+    geomagneticd \
+    orientationd \

@@ -13,11 +13,6 @@
 # limitations under the License.
 
 # All the blobs necessary for galaxys devices
-PRODUCT_COPY_FILES += \
-    vendor/samsung/aries-common/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
-    vendor/samsung/aries-common/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
-    vendor/samsung/aries-common/proprietary/samsung_mfc_fw.bin:system/vendor/firmware/samsung_mfc_fw.bin
-
 PRODUCT_PACKAGES += \
     libGLESv1_CM_POWERVR_SGX540_120 \
     libGLESv2_POWERVR_SGX540_120 \
@@ -29,4 +24,6 @@ PRODUCT_PACKAGES += \
     libPVRScopeServices \
     libsrv_init \
     libsrv_um \
-    libusc
+    libusc \
+    bcm4329 \
+    nvram_net.txt
