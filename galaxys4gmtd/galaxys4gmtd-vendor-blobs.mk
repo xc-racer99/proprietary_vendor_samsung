@@ -46,4 +46,4 @@ PRODUCT_PACKAGES += \
     libusc \
     bcm4329 \
     geomagneticd \
-    orientationd \
+    orientationd
