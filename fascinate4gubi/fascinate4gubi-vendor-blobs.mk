@@ -19,31 +19,8 @@ PRODUCT_PACKAGES += \
     libclientgps \
     gps.aries \
     libsec-ril \
-    gps.aries.telus \
-    libclientgps.telus \
-    Certification \
-    gps \
     modem \
-    modem.telus \
-    nvram_net.galaxys4g \
-    secgps \
-    samsung-gpsd \
     agpsd \
-    ste-cg29xx_ctrl
-
-# Aries-common
-PRODUCT_PACKAGES += \
-    libGLESv1_CM_POWERVR_SGX540_120 \
-    libGLESv2_POWERVR_SGX540_120 \
-    gralloc.aries \
-    libglslcompiler \
-    libIMGegl \
-    libpvr2d \
-    libpvrANDROID_WSEGL \
-    libPVRScopeServices \
-    libsrv_init \
-    libsrv_um \
-    libusc \
-    bcm4329 \
-    geomagneticd \
+    ste-cg29xx_ctrl \
     orientationd \
+    geomagneticd

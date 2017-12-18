@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),telusgalaxys4gubi)
+ifeq ($(TARGET_DEVICE),fascinate4gubi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := gps.aries
@@ -58,6 +58,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/bin
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_INIT_RC := cg2900.rc
 include $(BUILD_PREBUILT)
 
 endif
