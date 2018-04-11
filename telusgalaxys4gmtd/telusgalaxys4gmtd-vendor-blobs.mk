@@ -16,16 +16,11 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libril.so:obj/lib/libril.so \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so \
     vendor/samsung/telusgalaxys4gmtd/proprietary/modem.bin:modem.bin
 
 #All the blobs necessary for telusgalaxys4gmtd devices
 PRODUCT_COPY_FILES += \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/telusgalaxys4gmtd/proprietary/gps.conf:system/etc/gps.conf \
     vendor/samsung/telusgalaxys4gmtd/proprietary/ste-cg29xx_ctrl:system/vendor/bin/ste-cg29xx_ctrl \
     vendor/samsung/telusgalaxys4gmtd/proprietary/agpsd:system/vendor/bin/agpsd \
