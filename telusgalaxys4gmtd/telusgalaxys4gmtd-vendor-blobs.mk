@@ -20,14 +20,9 @@ PRODUCT_COPY_FILES := \
 
 #All the blobs necessary for telusgalaxys4gmtd devices
 PRODUCT_COPY_FILES += \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/telusgalaxys4gmtd/proprietary/gps.conf:system/etc/gps.conf \
     vendor/samsung/telusgalaxys4gmtd/proprietary/ste-cg29xx_ctrl:system/vendor/bin/ste-cg29xx_ctrl \
     vendor/samsung/telusgalaxys4gmtd/proprietary/agpsd:system/vendor/bin/agpsd \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/telusgalaxys4gmtd/proprietary/libclientgps.so:system/vendor/lib/libclientgps.so \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/lib/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/bin/orientationd:system/vendor/bin/orientationd \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/vendor/bin/geomagneticd:system/vendor/bin/geomagneticd
+    vendor/samsung/telusgalaxys4gmtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so
 
