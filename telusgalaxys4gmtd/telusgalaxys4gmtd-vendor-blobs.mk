@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES := \
 #All the blobs necessary for telusgalaxys4gmtd devices
 PRODUCT_COPY_FILES += \
     vendor/samsung/telusgalaxys4gmtd/proprietary/gps.conf:system/etc/gps.conf \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/ste-cg29xx_ctrl:system/vendor/bin/ste-cg29xx_ctrl \
     vendor/samsung/telusgalaxys4gmtd/proprietary/agpsd:system/vendor/bin/agpsd \
     vendor/samsung/telusgalaxys4gmtd/proprietary/libclientgps.so:system/vendor/lib/libclientgps.so \
     vendor/samsung/telusgalaxys4gmtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so
