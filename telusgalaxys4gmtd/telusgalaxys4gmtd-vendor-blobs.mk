@@ -23,5 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/telusgalaxys4gmtd/proprietary/gps.conf:system/etc/gps.conf \
     vendor/samsung/telusgalaxys4gmtd/proprietary/agpsd:system/vendor/bin/agpsd \
     vendor/samsung/telusgalaxys4gmtd/proprietary/libclientgps.so:system/vendor/lib/libclientgps.so \
-    vendor/samsung/telusgalaxys4gmtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so
-
+    vendor/samsung/telusgalaxys4gmtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
+    vendor/samsung/telusgalaxys4gmtd/proprietary/CG2900_BTARMSS_2.xP5C3.fw:system/vendor/firmware/cg2900/CG2900_BTARMSS_2.xP5C3.fw \
+    vendor/samsung/telusgalaxys4gmtd/proprietary/CG2900_Dempsey_SOC_2.x_G_1C1.fw:system/vendor/firmware/cg2900/CG2900_Dempsey_SOC_2.x_G_1C1.fw \
+    vendor/samsung/telusgalaxys4gmtd/proprietary/cg2900_patch_info.fw:system/vendor/firmware/cg2900/cg2900_patch_info.fw \
+    vendor/samsung/telusgalaxys4gmtd/proprietary/cg2900_settings_info.fw:system/vendor/firmware/cg2900/cg2900_settings_info.fw
